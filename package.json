@@ -1,0 +1,42 @@
+{
+  "name": "completion-gpt-api",
+  "author": "Diego Beltran",
+  "license": "MIT",
+  "description": "Node.js library that simplifies the process of generating completions for chat messages, tracks message history, and allows for saving and importing previous message history",
+  "repository": "noDiego/completion-gpt-api",
+  "version": "1.0.25",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "/dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/node": "^18.11.9",
+    "rimraf": "^4.4.0",
+    "ts-node": "^10.9.1",
+    "tslib": "^2.5.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "openai": "^3.2.1"
+  },
+  "keywords": [
+    "openai",
+    "chatcompletion",
+    "chatgpt",
+    "gpt",
+    "gpt-3",
+    "gpt-3.5",
+    "gpt-3.5-turbo",
+    "ai",
+    "bot",
+    "typescript"
+  ]
+}
